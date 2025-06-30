@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Galería Interactiva</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Galería Interactiva con JavaScript</h1>
+
+    <!-- Campo y botón para agregar imagen -->
+    <div class="input-group mb-3">
+      <input type="url" id="urlInput" placeholder="Ingresa la URL de una imagen" class="form-control" required />
+      <button id="addBtn" class="btn btn-primary">Agregar Imagen</button>
+    </div>
+
+    <!-- Galería de imágenes -->
+    <div id="gallery" class="gallery"></div>
+
+    <!-- Botón para eliminar imagen seleccionada -->
+    <button id="deleteBtn" class="btn btn-danger mt-3">Eliminar Imagen Seleccionada</button>
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
